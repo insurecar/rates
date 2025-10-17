@@ -13,7 +13,14 @@ function App() {
           </h1>
           <h2>
             {" "}
-            <a href=""></a>{" "}
+            <a
+              href="https://github.com/insurecar/rates"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              GitHub Repository
+            </a>
           </h2>
           <CurrencyApp />
         </div>

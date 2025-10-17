@@ -1,6 +1,6 @@
 import { getLastSevenDays } from "../services/currencyApi";
 
-const CurrencyTable = ({
+export const CurrencyTable = ({
   baseCurrency,
   targetCurrencies,
   ratesData,
